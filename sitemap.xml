@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>/</loc><changefreq>weekly</changefreq></url>
   <url><loc>/products/csv-cleaner/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>/guides/</loc><changefreq>weekly</changefreq></url>
   <url><loc>/guides/csv-cleaner.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>/guides/csv-wont-import.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>/guides/remove-blank-rows-from-csv.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>/guides/fix-csv-headers.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>/guides/convert-csv-to-utf8.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>/about/</loc><changefreq>monthly</changefreq></url>
 </urlset>
