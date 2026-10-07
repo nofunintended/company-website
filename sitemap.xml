@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>/</loc><changefreq>weekly</changefreq></url>
-  <url><loc>/products/textsnap-pdf/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>/products/csv-cleaner/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>/guides/csv-cleaner.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>/about/</loc><changefreq>monthly</changefreq></url>
 </urlset>
