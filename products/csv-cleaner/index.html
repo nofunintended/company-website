@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSV Cleaner for Freelancers — $9 | No Fun Intended, LLC</title>
+<meta name="description" content="CSV Cleaner turns messy client CSVs into clean, import-ready files in one click. $9 one-time, no subscription, works offline.">
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; margin:0; color:#1a1a1a; line-height:1.6; }
+  header { background:#111827; color:white; padding:40px 24px; text-align:center; }
+  header h1 { margin:0 0 8px; font-size:30px; }
+  header p { opacity:.8; max-width:620px; margin:0 auto; }
+  .price { font-size:22px; margin-top:16px; }
+  main { max-width:860px; margin:0 auto; padding:32px 20px 60px; }
+  .btn { display:inline-block; background:#4f46e5; color:white; padding:14px 32px; border-radius:8px; text-decoration:none; font-size:18px; margin:12px 8px 12px 0; }
+  .btn-secondary { background:white; color:#4f46e5; border:1px solid #4f46e5; }
+  .buy-box { background:#eef2ff; border-radius:12px; padding:24px; text-align:center; margin:28px 0; }
+  .buy-box p { margin:6px 0; }
+  .cols { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:20px 0; }
+  @media (max-width:640px){ .cols{ grid-template-columns:1fr; } }
+  .csv { background:#111827; color:#e5e7eb; border-radius:8px; padding:16px; font-family:ui-monospace, monospace; font-size:13px; overflow-x:auto; white-space:pre; }
+  .csv .bad { color:#fca5a5; }
+  .csv .good { color:#6ee7b7; }
+  .cap { font-size:13px; color:#6b7280; margin-top:6px; }
+  h2 { margin-top:36px; }
+  ul.tight li { margin-bottom:6px; }
+  footer { background:#f9fafb; padding:24px; text-align:center; font-size:14px; color:#6b7280; }
+  nav { text-align:center; padding:12px; background:#f9fafb; }
+  nav a { margin:0 12px; color:#4f46e5; text-decoration:none; font-size:14px; }
+  code { background:#f3f4f6; padding:2px 6px; border-radius:4px; font-size:14px; }
+  .faq dt { font-weight:600; margin-top:14px; }
+  .faq dd { margin:4px 0 0; }
+</style>
+</head>
+<body>
+<header>
+  <p style="margin:0 0 8px;"><a href="/" style="color:#a5b4fc; font-size:14px;">← No Fun Intended, LLC</a></p>
+  <h1>🧹 CSV Cleaner for Freelancers</h1>
+  <p>Stop hand-fixing broken CSVs. Drop in a messy file — get back a clean one with normalized headers, no empty rows, and proper UTF-8 encoding. One click. Works offline.</p>
+  <div class="price"><strong>$9</strong> <span style="font-size:15px; opacity:.75;">one-time · yours forever</span></div>
+</header>
+<nav>
+  <a href="/">Home</a>
+  <a href="#how">How it works</a>
+  <a href="#faq">FAQ</a>
+</nav>
+<main>
+
+  <div class="buy-box">
+    <p><strong>Ready to clean your CSVs?</strong></p>
+    <a class="btn" href="https://nofunintended.lemonsqueezy.com/checkout/buy/0efc053d-5a22-4aa8-b814-0c722459de86">Buy now — $9</a>
+    <p><small>Secure checkout. No subscription. No DRM. Your data never leaves your computer.</small></p>
+  </div>
+
+  <h2>Before → after</h2>
+  <div class="cols">
+    <div>
+      <div class="csv"><span class="bad"> First Name ,Last-Name, EMAIL
+ John , Doe , JOHN@EXAMPLE.COM
+
+ Jane,Smith,</span></div>
+      <p class="cap">Before: messy headers, stray spaces, blank rows.</p>
+    </div>
+    <div>
+      <div class="csv"><span class="good">first_name,last_name,email
+John,Doe,JOHN@EXAMPLE.COM
+Jane,Smith,</span></div>
+      <p class="cap">After: clean headers, trimmed cells, no empty rows.</p>
+    </div>
+  </div>
+
+  <h2 id="how">How it works</h2>
+  <ol>
+    <li><strong>Get the app</strong> — after purchase you'll receive a secure download link by email. It's a single <code>csv-cleaner.exe</code> file. No installer, no admin rights needed.</li>
+    <li><strong>Run it on your CSV</strong> — double-click and choose your file, or drag your CSV onto the exe.</li>
+    <li><strong>Pick up the clean file</strong> — a <code>yourfile_cleaned.csv</code> appears next to the original. That's it.</li>
+  </ol>
+  <p><a class="btn btn-secondary" href="/guides/csv-cleaner.html">Read the full user guide</a></p>
+
+  <h2>What it fixes</h2>
+  <ul class="tight">
+    <li><strong>Messy headers</strong> — <code>" First Name "</code> becomes <code>first_name</code></li>
+    <li><strong>Empty rows</strong> — blank lines removed automatically</li>
+    <li><strong>Wrong encodings</strong> — Latin-1 / Windows-1252 converted to clean UTF-8</li>
+    <li><strong>Stray whitespace</strong> — leading and trailing spaces trimmed from every cell</li>
+  </ul>
+
+  <h2>Details</h2>
+  <ul class="tight">
+    <li><strong>Platform:</strong> Windows 10/11, 64-bit (Mac &amp; Linux coming)</li>
+    <li><strong>Size:</strong> ~8 MB single file</li>
+    <li><strong>Offline:</strong> 100% local — your data is never uploaded anywhere</li>
+    <li><strong>License:</strong> buy once, use forever, on your machines</li>
+  </ul>
+
+  <h2>Verify your download</h2>
+  <p><small>Every release is SHA256-signed. On Windows run <code>certutil -hashfile csv-cleaner.exe SHA256</code> and compare to the hash shown on your purchase receipt. If they match, the file is exactly what we shipped.</small></p>
+
+  <h2 id="faq">FAQ</h2>
+  <dl class="faq">
+    <dt>Do I need to install anything?</dt>
+    <dd>No. It's a single .exe — download and run.</dd>
+    <dt>Does my data leave my computer?</dt>
+    <dd>Never. Everything runs locally, offline.</dd>
+    <dt>What if it can't handle my file?</dt>
+    <dd>Email us and we'll take a look — if the tool can't do its one job for you, we'll make it right.</dd>
+    <dt>Is it really a one-time payment?</dt>
+    <dd>Yes. $9 once. No subscription, no renewal, no DRM.</dd>
+  </dl>
+
+  <div class="buy-box">
+    <a class="btn" href="https://nofunintended.lemonsqueezy.com/checkout/buy/0efc053d-5a22-4aa8-b814-0c722459de86">Buy CSV Cleaner — $9</a>
+    <p><small>30 seconds to checkout. Clean CSVs forever.</small></p>
+  </div>
+
+</main>
+<footer>
+  © 2026 No Fun Intended, LLC • <a href="/">Home</a> • <a href="/sitemap.xml">Sitemap</a>
+</footer>
+</body>
+</html>
