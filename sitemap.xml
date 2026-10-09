@@ -8,5 +8,6 @@
   <url><loc>/guides/remove-blank-rows-from-csv.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>/guides/fix-csv-headers.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>/guides/convert-csv-to-utf8.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>/guides/trim-extra-spaces-from-csv.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>/about/</loc><changefreq>monthly</changefreq></url>
 </urlset>
