@@ -11,5 +11,7 @@
   <url><loc>/guides/trim-extra-spaces-from-csv.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>/guides/fix-csv-ragged-rows.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>/guides/fix-numbers-stored-as-text.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>/guides/fix-leading-zeros-excel-csv.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>/guides/fix-garbled-accents-excel-csv.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>/about/</loc><changefreq>monthly</changefreq></url>
 </urlset>
